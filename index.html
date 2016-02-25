@@ -4,7 +4,7 @@
   <title>the next web</title>
   <link rel="stylesheet" type="text/css" href="style/foundation.css">
   <link rel="stylesheet" type="text/css" href="style/app.css">
-  <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="vnd/font-awesome.min.css">
 
 </head>
 <body>
@@ -15,60 +15,53 @@
       <div class="title-bar-title">Menu</div>
     </div>
     <div class="top-bar" id="main-menu">
-      <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown">
-        <li class="menu-text">TNW News</li>
-        <li class="has-submenu"><a href="#">APPS</a>
-          <ul class="submenu menu vertical" data-submenu>
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-          </ul>
-        </li>
-        <li class="has-submenu"><a href="#">GEAR</a>
-          <ul class="submenu menu vertical" data-submenu>
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-          </ul>
-        </li>
-        <li class="has-submenu"><a href="#">TECH</a>
-          <ul class="submenu menu vertical" data-submenu>
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-          </ul>
-        </li>
-        <li class="has-submenu"><a href="#">CREATIVE</a>
-          <ul class="submenu menu vertical" data-submenu>
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-          </ul>
-        </li>
-        <li class="has-submenu"><a href="#">MONEY</a>
-          <ul class="submenu menu vertical" data-submenu>
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-          </ul>
-        </li>
-        <li class="has-submenu"><a href="#">INSIGHTS</a>
-          <ul class="submenu menu vertical" data-submenu>
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-          </ul>
-        </li>
-        <li class="has-submenu"><a href="#">LAUNCH</a>
-          <ul class="submenu menu vertical" data-submenu>
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-          </ul>
-        </li>
-      </ul>
+      <div class="top-bar-left">
+          <ul class="dropdown menu top-left-menu" data-dropdown-menu>
+          <li class="menu-text">TNW News</li>
+          <li class="has-submenu"><a href="#">APPS</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="#">One</a></li>
+              <li><a href="#">Two</a></li>
+              <li><a href="#">Three</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu"><a href="#">GEAR</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="#">One</a></li>
+              <li><a href="#">Two</a></li>
+              <li><a href="#">Three</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu"><a href="#">TECH</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="#">One</a></li>
+              <li><a href="#">Two</a></li>
+              <li><a href="#">Three</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu top-right-menu">
+          <li><i class="fa fa-twitter fa-2x"></i></li>
+          <li><i class="fa fa-facebook fa-2x"></i></li>
+          <li class="line-before"><i class="fa fa-search fa-2x show"></i></li>
+        </ul>
+      </div>
+
+
     </div>
   </header>
+
+  <form class="search-panel index-panel">
+    <div class="bigSearch ">
+      <i class="fa fa-search"></i>
+      <input type="text" id="search-key">
+      <i class="fa fa-times close"></i>
+    </div>
+  </form>
+
+
   <br>
   <div class="row">
     <div class="medium-8  columns">
